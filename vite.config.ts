@@ -5,4 +5,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   envDir: "./env", // Environment Variables 設定檔資料夾
+  base: "/react-typescript-chatgpt",
 });
